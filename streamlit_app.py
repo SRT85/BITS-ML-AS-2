@@ -41,17 +41,17 @@ model_option = st.selectbox(
 # ------------------------------
 def load_model(model_name):
     if model_name == "Logistic Regression":
-        return joblib.load("logistic_regression.pkl")
+        return joblib.load("/Users/stalukda/Documents/Automation_exercise/BITS-ML-AS-2/model/logistic_regression.pkl")
     elif model_name == "Decision Tree":
-        return joblib.load("decision_tree.pkl")
+        return joblib.load("/Users/stalukda/Documents/Automation_exercise/BITS-ML-AS-2/model/decision_tree.pkl")
     elif model_name == "KNN":
-        return joblib.load("k_nearest_neighbor.pkl")
+        return joblib.load("/Users/stalukda/Documents/Automation_exercise/BITS-ML-AS-2/model/k_nearest_neighbor.pkl")
     elif model_name == "Naive Bayes":
-        return joblib.load("gaussian_naive_bayes.pkl")
+        return joblib.load("/Users/stalukda/Documents/Automation_exercise/BITS-ML-AS-2/model/gaussian_naive_bayes.pkl")
     elif model_name == "Random Forest":
-        return joblib.load("random_forest.pkl")
+        return joblib.load("/Users/stalukda/Documents/Automation_exercise/BITS-ML-AS-2/model/random_forest.pkl")
     elif model_name == "XGBoost":
-        return joblib.load("xgboost.pkl")
+        return joblib.load("/Users/stalukda/Documents/Automation_exercise/BITS-ML-AS-2/model/xgboost.pkl")
 
 # ------------------------------
 # File Upload
